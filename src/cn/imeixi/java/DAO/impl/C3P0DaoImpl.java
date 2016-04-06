@@ -33,7 +33,6 @@ public class C3P0DaoImpl<T> implements DAO<T> {
 
 	@Override
 	public void update(Connection connection, String sql, Object... args) {
-		// TODO Auto-generated method stub
 		
 	}
 
