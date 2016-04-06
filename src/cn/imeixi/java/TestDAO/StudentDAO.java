@@ -1,7 +1,7 @@
 package cn.imeixi.java.TestDAO;
 
-import cn.imeixi.java.DAO.impl.DBUtilDaoImpl;
+import cn.imeixi.java.DAO.impl.JdbcDaoImpl;
 
-public class StudentDAO extends DBUtilDaoImpl <Student>{
+public class StudentDAO extends JdbcDaoImpl <Student>{
 
 }

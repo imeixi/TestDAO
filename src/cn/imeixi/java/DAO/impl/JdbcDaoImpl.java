@@ -5,7 +5,14 @@ import java.util.List;
 
 import cn.imeixi.java.DAO.DAO;
 
-public class C3P0DaoImpl<T> implements DAO<T> {
+
+/**
+ * 通过DButil工具集实现DAO接口
+ * @author perfermance
+ *
+ * @param <T>
+ */
+public class JdbcDaoImpl<T> implements DAO <T>{
 
 	@Override
 	public void batch(Connection connection, String sql, Object... args) {
@@ -33,6 +40,7 @@ public class C3P0DaoImpl<T> implements DAO<T> {
 
 	@Override
 	public void update(Connection connection, String sql, Object... args) {
+		// TODO Auto-generated method stub
 		
 	}
 
