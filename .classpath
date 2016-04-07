@@ -5,7 +5,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="lib/c3p0-0.9.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-dbcp-1.4.jar"/>
-	<classpathentry kind="lib" path="lib/commons-dbutils-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbutils-1.3.jar" sourcepath="/Users/perfermance/360云盘/MAC/开源jar/commons-dbutils-1.3-src.zip"/>
 	<classpathentry kind="lib" path="lib/commons-pool-1.5.5.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.7-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
