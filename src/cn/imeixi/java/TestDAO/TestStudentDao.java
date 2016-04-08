@@ -9,8 +9,8 @@ import java.util.List;
 
 import org.junit.Test;
 
-import cn.imeixi.java.DAOimpl.JDBCToolsFromC3P0;
-import cn.imeixi.java.DAOimpl.JDBCToolsFromDbcp;
+import cn.imexi.java.common.JDBCToolsFromC3P0;
+import cn.imexi.java.common.JDBCToolsFromDbcp;
 
 public class TestStudentDao {
 	

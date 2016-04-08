@@ -10,6 +10,7 @@ import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import cn.imeixi.java.DAO.DAO;
+import cn.imexi.java.common.ReflectionUtils;
 
 
 /**
